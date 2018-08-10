@@ -1,5 +1,5 @@
 # PyFilling
-PyFilling is the Capstone project of  @supermcpeanut, @a-levsky, & @tchrinder. This tool was designed to see if it is possible to develop an automated tool that can identify the optimal time, packet size and perform the exfiltration based on the results.
+PyFilling is the Capstone project of  @supermcpeanut, @a-levsky, & @tchrinder. PyFilling was designed to explore the possibility of developing an automated tool that can identify the optimal time, protocol, and packet size to perform data exfiltration on a compromised host based on its normal network traffic.
 
 ## Quick Overview
 ![Alt text](InternalStructure_PyFilling.jpg?raw=true "Internal Structure Overview")
@@ -13,9 +13,9 @@ PyFilling is the Capstone project of  @supermcpeanut, @a-levsky, & @tchrinder. T
     *  POP3 Authentication
 
 ## Installation & Preparation
-In order to preform the exfiltration the following steps are required:
+In order to preform the exfiltration, the following steps are required:
 
-- We wanted to use as few python servers as possible, as such we relied on Nginx to capture incomming cookies
+- We wanted to use as few python servers as possible, as such we relied on Nginx to capture incoming cookies
     *  A simple method of installing and configuring Nginx on Ubuntu can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04 "Digital Ocean Setup")
 
     *  If Nginx is used the following changes to etc/nginx/nginx.conf are required
@@ -29,12 +29,11 @@ In order to preform the exfiltration the following steps are required:
 ```
 *It should be noted that this change will make the access_log only log cookies.*
 
-*Addtionally to proper use our HTTPS exfiltration the server should have a certificate and an innocuous domain name.*
+*Addtionally to properly use our HTTPS exfiltration the server should have a certificate and an innocuous domain name.*
 
 *Certbot makes it trivial to register a cert, found* [here](https://certbot.eff.org/ "Certbot Setup")
 
 ## Running the listeners
-
 All the Protocol listeners/servers need to be setup.
 ```bash
 # serve.py:
