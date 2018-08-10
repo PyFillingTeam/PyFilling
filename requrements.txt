@@ -1,0 +1,9 @@
+requests>=2.19.1
+more_itertools
+schedule
+dpkt
+numpy
+pandas
+statsmodels
+sklearn
+patsy
