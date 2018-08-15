@@ -73,3 +73,6 @@ We wanted to thank the following people:
 *  De Mello Palheta for the immeasurable number of 4-shot americanos consumed.
 *  Maker Pizza for the numerous pizzas eaten.
 *  Lastly, @bitofeverything for coming up with the name PyFilling.  
+
+## Disclaimer
+Please do not use this for malicious purposes!
