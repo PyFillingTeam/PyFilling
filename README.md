@@ -75,4 +75,4 @@ We wanted to thank the following people:
 *  Lastly, @bitofeverything for coming up with the name PyFilling.  
 
 ## Disclaimer
-Please do not use this for malicious purposes! We did this as students to see if it was possible
+Please do not use this for malicious purposes! We did this as students to see if it was possible.
